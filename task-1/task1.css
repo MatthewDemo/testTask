@@ -1,0 +1,123 @@
+.ukraine {
+    border: solid black 1px;
+    width: 298px;
+    height: 198px;
+    margin-top: 25px;
+    margin-left: 50px;
+
+}
+
+.ukraine_blue {
+
+    height: 99px;
+    width: 298px;
+    background-color: blue;
+}
+
+.ukraine_yellow {
+    height: 99px;
+    width: 298px;
+    background-color: yellow;
+}
+
+.japan {
+    margin-top: 25px;
+    margin-left: 50px;
+    height: 198px;
+    width: 298px;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.japan_red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+.chezh {
+    border: solid black 1px;
+    width: 298px;
+    height: 198px;
+    margin-top: 25px;
+    margin-left: 50px;
+    position: relative;
+    transform: scale(1, -1) 
+}
+
+.chezh_white {
+    height: 99px;
+    width: 298px;
+    background-color: white;
+    position: absolute ;    
+
+}
+
+.chezh_red {
+    height: 99px;
+    width: 298px;
+    background-color: red;
+    position: absolute ;    
+
+}
+
+.chezh_blue {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 99px 0 99px 148px;
+    border-color: transparent transparent transparent blue;
+    position: absolute ;    
+
+}
+
+.island {
+    position: fixed;
+    border: solid black 1px;
+    width: 298px;
+    height: 198px;
+    margin-top: 25px;
+    margin-left: 50px;
+    background-color: blue;
+    position: relative;
+}
+
+.iseland_white_vertical {
+    background-color: white;
+    margin-left: 80px;
+    width: 66.6px;
+    height: 198px;
+    position: absolute, relative, fixed;
+}
+.iseland_white_horizontal {
+    background-color: white;
+    width: 298px;
+    height: 66.6px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.iseland_red_vertical {
+    background-color: red;
+    height: 198px;
+    width: 33.3px;
+    position: absolute;              
+    left: 32%;                        
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.iseland_red_horizontal {
+    background-color: red;
+    height: 33.3px;
+    width: 298px;
+    position: absolute;               
+    top: 50%;                    
+    transform: translate(0, -50%)
+}

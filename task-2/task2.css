@@ -1,0 +1,255 @@
+.table td {
+    border: 5px solid darkgray;
+    padding: 2px;
+    margin: 10%;
+}
+
+.table {
+    margin: 0 auto;
+}
+
+.rowx {
+    display: table;
+    margin: 0 auto;
+}
+
+.cellx {
+    border: 5px solid rgb(62, 59, 59);
+    display: table-cell;
+    padding: 2px;
+    margin: 10%;
+    border-radius: 50%;
+    background-image: url("task-2\imgs\1.png");
+
+}
+
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh,
+.eighth,
+.nineth,
+.tenth,
+.eleventh,
+.tvelweth {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+}
+
+.first:hover,
+.second:hover,
+.third:hover,
+.fourth:hover,
+.fifth:hover,
+.sixth:hover,
+.seventh:hover,
+.eighth:hover,
+.nineth:hover,
+.tenth:hover,
+.eleventh:hover,
+.tvelweth:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(-45deg);
+}
+
+.first {
+    height: 180px;
+    width: 180px;
+    background-size: 200px 200px;
+    background-image: url("./imgs/1.png");
+    border: 5px solid rgb(229, 43, 43);
+    display: table-cell;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10%;
+}
+
+.second {
+    height: 180px;
+    width: 180px;
+    background-size: 200px 200px;
+    background-image: url("./imgs/2.png");
+    border: 5px solid gray;
+    display: table-cell;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10%;
+}
+
+.third {
+    height: 180px;
+    width: 180px;
+    background-size: 200px 200px;
+    background-image: url("./imgs/3.png");
+    border: 5px solid gray;
+    display: table-cell;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10%;
+}
+
+.fourth {
+    height: 180px;
+    width: 180px;
+    background-size: 200px 200px;
+    background-image: url("./imgs/4.png");
+    border: 5px solid gray;
+    display: table-cell;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10%;
+}
+
+.fifth {
+    height: 180px;
+    width: 180px;
+    background-size: 200px 200px;
+    background-image: url("./imgs/5.png");
+    border: 5px solid rgb(229, 43, 43);
+    display: table-cell;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10%;
+}
+
+.sixth {
+    height: 180px;
+    width: 180px;
+    background-size: 200px 200px;
+    background-image: url("./imgs/6.png");
+    border: 5px solid gray;
+    display: table-cell;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10%;
+}
+
+.seventh {
+    height: 180px;
+    width: 180px;
+    background-size: 200px 200px;
+    background-image: url("./imgs/7.png");
+    border: 5px solid gray;
+    display: table-cell;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10%;
+}
+
+.eighth {
+    height: 180px;
+    width: 180px;
+    background-size: 200px 200px;
+    background-image: url("./imgs/8.png");
+    border: 5px solid gray;
+    display: table-cell;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10%;
+}
+
+.nineth {
+    height: 180px;
+    width: 180px;
+    background-size: 200px 200px;
+    background-image: url("./imgs/9.png");
+    border: 5px solid rgb(229, 43, 43);
+    display: table-cell;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10%;
+}
+
+.tenth {
+    height: 180px;
+    width: 180px;
+    background-size: 200px 200px;
+    background-image: url("./imgs/10.png");
+    border: 5px solid gray;
+    display: table-cell;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10%;
+}
+
+.eleventh {
+    height: 180px;
+    width: 180px;
+    background-size: 200px 200px;
+    background-image: url("./imgs/11.png");
+    border: 5px solid gray;
+    display: table-cell;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10%;
+}
+
+.tvelweth {
+    height: 180px;
+    width: 180px;
+    background-size: 200px 200px;
+    background-image: url("./imgs/12.png");
+    border: 5px solid gray;
+    display: table-cell;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 10%;
+}
+
+.time {
+    float: right;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+*{
+    font-family: Areal;
+}
+.b-container{
+    width:200px;
+    height:150px;
+    background-color: #ccc;
+    margin:0px auto;
+    padding:10px;
+    font-size:30px;
+    color: #fff;
+    position: relative;
+}
+.b-popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0px auto;
+    width: 50%;
+    height: 40%;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.closebtn {
+    position:absolute;
+    top: 6%;
+    left: 73.9%;
+    border-radius: 10%;
+}
+
